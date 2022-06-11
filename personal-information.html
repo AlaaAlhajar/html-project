@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+
+<style>
+    body{
+          justify-content: center;
+          text-align: center;
+          flex-basis: auto;
+          align-content: flex-end;
+    }
+    h2{
+        color: red;
+        background-color: aqua;
+        text-align: center;
+    }
+ .grid-container {
+  display: inline-grid;
+  padding: 50px;
+  width:40%;
+  align-content: center;
+}
+
+label{
+    float: left;
+}
+input ,a{
+float: right;
+padding-left:30PX;
+width:310PX;
+}
+
+ul{
+ text-align: left;   
+}
+
+</style>
+</head>
+<body >
+<div class="grid-container">
+
+<form action="" method="POST" style="background-color: #a8a8a8;">
+    <h2>My personal information</h2>
+    <fieldset class="first">
+        <legend>CONTACT</legend>
+        <div class="">
+        <label><b>My name &nbsp; </b></label>
+        <input type="text" name="name" value="Alaa Ahmad Alhajjar" readonly>
+        <br>
+        <label> <b>Phone number   </b></label>
+        <input type="text" name="tel" value="0599125306" readonly>
+        <br>
+        <label> <b>Gmail</b></label>
+         <b><b><input type="text" name="gmail" value="adooha2000@gmail.com" readonly>
+        <br>
+        <label> Date of Birthday</label>
+        <input type="text" name="dataofb" value="28/8/2000"readonly>
+        </div>
+    </fieldset>
+
+    <fieldset class="first">
+        <legend>SKILLS</legend>
+        
+        <ul>
+            <li>Programming languages: </li>
+                <ul> <li>Java</li>
+                <li>Dart</li>
+                <li>Java script</li>
+            </ul>
+           <br/>
+            <li>Web Designing:
+                <ul> <li>HTML5</li>
+                <li>PHP</li>
+                <li>CSS</li>
+            </ul>
+            </li>
+            <li>Team Working </li>
+            <li>Presentation </li>
+        </ul>
+        
+
+    </fieldset>
+    <fieldset>
+        <label>Free codecamp URL </label>
+        <a href="https://www.freecodecamp.org/AlaaAlhajjar">https://www.freecodecamp.org/AlaaAlhajjar</a>      
+        <label>Codewars URL</label>
+        <a href="https://www.codewars.com/users/AlaaAlhajar">https://www.codewars.com/users/AlaaAlhajar</a>
+        <label>JavaScript project URL</label>
+        <a href="https://github.com/AlaaAlhajar/javascript">https://github.com/AlaaAlhajar/javascript</a>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>
